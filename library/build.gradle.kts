@@ -35,3 +35,9 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 dependencies {
   implementation("org.jetbrains.kotlin:kotlin-stdlib")
 }
+
+tasks.withType<Jar>().configureEach {
+  if (archiveClassifier.get() == "sources") {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+  }
+}

@@ -21,14 +21,17 @@ Thumbs.db
 
 # Kotlin / Java
 *.class
+# ignore most jars but keep the Gradle wrapper
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
 *.war
 *.ear
-*.log
 
 # Android specific
 captures/
 .externalNativeBuild/
 
-# JitPack-generated dirs (optional)
+# JitPack – ignore any cache dirs, but not jitpack.yml itself
 jitpack.*
+!jitpack.yml
