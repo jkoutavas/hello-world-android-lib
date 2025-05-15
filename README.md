@@ -27,7 +27,7 @@ Use this as a template for your own Android libraries that you want to share qui
   sdk.dir=/Users/<your-user>/Library/Android/sdk
   ```
 
-- **Git** repository hosted on GitHub (public or private—see JitPack for access details). See bare-bones example app at: https://github.com/jkoutavas/hello-world-android-app/blob/main/README.md
+- **Git** repository hosted on GitHub (public or private—see JitPack for access details). See bare-bones example app at: https://github.com/jkoutavas/hello-world-android-app
 
 ---
 
